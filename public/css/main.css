@@ -1,0 +1,14 @@
+.post-list {
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  top: 4rem;
+  width: 15rem;
+  height: 100%;
+  max-height: 100%;
+  border: 1px solid #eeeeee; }
+  .post-list a {
+    color: #515151; }
+  .post-list ul {
+    list-style-type: none;
+    padding: 0.5rem; }

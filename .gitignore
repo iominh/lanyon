@@ -33,6 +33,9 @@ nbproject
 *.komodoproject
 .komodotools
 
+# Sass
+.sass-cache/
+
 # grunt-html-validation
 validation-status.json
 validation-report.json

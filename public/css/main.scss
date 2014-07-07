@@ -1,0 +1,24 @@
+$accent-color: #505050;
+$border-color: #eee;
+$text-color: #515151;
+
+.post-list {
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  top: 4rem;
+  width: 15rem;
+  //  width: 326px;
+  height: 100%;
+  max-height: 100%;
+  border: 1px solid $border-color;
+
+  a {
+	color: $text-color;
+  }
+
+  ul {
+	list-style-type: none;
+	padding: 0.5rem;
+  }
+}
