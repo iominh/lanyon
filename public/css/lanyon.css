@@ -186,8 +186,8 @@ h1, h2, h3, h4, h5, h6 {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255,255,255,.1);
-  border-color: transparent;
+  /*background-color: rgba(255,255,255,.1);*/
+  /*border-color: transparent;*/
 }
 
 @media (min-width: 48em) {

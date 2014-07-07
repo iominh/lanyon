@@ -1,24 +1,17 @@
 $accent-color: #505050;
-$border-color: #eee;
+$secondary-accent-color: #268bd2;
 $text-color: #515151;
+$highlight-color: #eee;
 
-.post-list {
-  float: left;
-  overflow: hidden;
-  position: absolute;
-  top: 4rem;
-  width: 15rem;
-  //  width: 326px;
-  height: 100%;
-  max-height: 100%;
-  border: 1px solid $border-color;
+.sidebar a {
+  color: lighten($text-color, 20%);
+}
 
-  a {
-	color: $text-color;
-  }
+.sidebar-nav-item.active {
+  border-left: 0.3rem solid $secondary-accent-color;
+}
 
-  ul {
-	list-style-type: none;
-	padding: 0.5rem;
-  }
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  color: lighten($text-color, 50%);
 }

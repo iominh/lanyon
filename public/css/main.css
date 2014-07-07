@@ -1,14 +1,9 @@
-.post-list {
-  float: left;
-  overflow: hidden;
-  position: absolute;
-  top: 4rem;
-  width: 15rem;
-  height: 100%;
-  max-height: 100%;
-  border: 1px solid #eeeeee; }
-  .post-list a {
-    color: #515151; }
-  .post-list ul {
-    list-style-type: none;
-    padding: 0.5rem; }
+.sidebar a {
+  color: #848484; }
+
+.sidebar-nav-item.active {
+  border-left: 0.3rem solid #268bd2; }
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  color: #d1d1d1; }
